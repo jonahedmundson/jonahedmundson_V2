@@ -1,0 +1,47 @@
+
+body {
+    margin: auto;
+    width: 90vw;
+    height: 100vh;    
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    background-image: url('./assets/ships.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center bottom;
+    font-size: xx-large;
+    color: white;
+    font-family: Garamond;
+}
+
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+a {
+    color: white !important;
+    text-decoration: none !important;
+    transition: transform 0.3s;
+    width: fit-content;
+}
+
+
+a:hover {
+    transform: scale(1.1);
+    color: blue !important;
+}
+
+
+h3 { 
+    width: fit-content;
+    font-weight: bold;
+}
+
+
+hr {
+    color: white; 
+    width: 100%;
+}
